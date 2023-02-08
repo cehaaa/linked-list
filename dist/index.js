@@ -1,0 +1,20 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const LinkedList_1 = __importDefault(require("./LinkedList"));
+const linkedList = new LinkedList_1.default();
+linkedList.insert(1);
+linkedList.insert(2);
+linkedList.insert(3);
+linkedList.insert(4);
+linkedList.insertAt(1, 1.5);
+linkedList.insertAt(3, 2.5);
+linkedList.insertHead(-1);
+linkedList.remove(1);
+linkedList.removeAt(0);
+linkedList.removeHead();
+linkedList.removeTail();
+linkedList.print();
+linkedList.getAt(2);
