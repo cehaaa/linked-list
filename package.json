@@ -1,0 +1,16 @@
+{
+	"name": "linked-list",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "tsc scripts/*.ts",
+		"dev": "tsc --watch"
+	},
+	"keywords": [],
+	"author": "cehaaa",
+	"license": "ISC",
+	"dependencies": {
+		"typescript": "^4.9.5"
+	}
+}
